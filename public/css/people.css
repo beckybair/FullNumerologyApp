@@ -56,6 +56,7 @@ h1 {
 	color: red;
 	font-style: italic;
 	font-weight: bold;
+	text-align: center;
 }
 
 .form-group {
@@ -101,7 +102,7 @@ body {
 }
 
 #start .header p {
-    color: #8f8f8f;
+    color: red;
     font-size: 14px;
     font-weight: 300;
 }
@@ -222,4 +223,31 @@ input:-moz-placeholder {
         linear, left top, left bottom, 
         from(#a4b0cb),
         to(#b9c5dd));
+}
+
+/* people/index.erb */
+#people {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#people td, #people th {
+    font-size: 1em;
+    border: 1px solid #000000;
+    padding: 3px 7px 2px 7px;
+}
+
+#people th {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #afbbd4;
+    color: #ffffff;
+}
+
+#people tr.alt td {
+    color: #000000;
+    background-color: #afbbd4;
 }
