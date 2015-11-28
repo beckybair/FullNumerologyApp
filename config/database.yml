@@ -13,3 +13,6 @@ test:
   host: localhost
   username: postgres
   password: Dominos93
+	
+production:
+  url: <%= ENV['DATABASE_URL'] %>
